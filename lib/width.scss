@@ -1,0 +1,31 @@
+$max: 100 !default;
+@mixin width-height-classes($size) {
+    .w-#{$size} {
+        width: $size + px;
+        &-i {
+            width: $size + px !important;
+        }
+    }
+    .h-#{$size} {
+        height: $size + px;
+        &-i {
+            height: $size + px !important;
+        }
+    }
+    .w-ratio-#{$size} {
+        height: $size#{'%'};
+        &-i {
+            width: $size#{'%'} !important;
+        }
+    }
+    .h-ratio-#{$size} {
+        height: $size#{'%'};
+        &-i {
+            height: $size#{'%'} !important;
+        }
+    }
+}
+
+@for $i from 0 through ($max) {
+    @include width-height-classes($i)
+}
