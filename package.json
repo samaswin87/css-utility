@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
-    "npm-sass": "^2.1.0"
+    "npm-sass": "^2.1.0",
+    "typescript": "^4.2.4"
   }
 }
