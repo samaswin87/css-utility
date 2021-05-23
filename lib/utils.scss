@@ -1,104 +1,161 @@
-$u-step-size: 5 !default;
-$u-min-height-max: 200 !default;
-$u-margin-padding-max: 100 !default;
-
-.u-text-left {
-  text-align: left;
+$step-size: 5 !default;
+$min-height-max: 200 !default;
+$margin-padding-max: 100 !default;
+.text-left {
+    text-align: left !important;
 }
 
-.u-text-right {
-  text-align: right;
+.text-right {
+    text-align: right !important;
 }
 
-.u-text-center {
-  text-align: center;
+.text-center {
+    text-align: center !important;
 }
 
-.u-float-left {
-  float: left;
+.float-left {
+    float: left !important;
 }
 
-.u-float-right {
-  float: right;
+.float-right {
+    float: right !important;
 }
 
-.u-float-none {
-  float: none;
+.float-none {
+    float: none !important;
 }
 
-@for $i from 0 through ($u-min-height-max / $u-step-size) {
-  .u-mh-#{$i * $u-step-size} {
-    min-height: $i * $u-step-size + px;
-
-    &i {
-      min-height: $i * $u-step-size + px !important;
-    }
-  }
+.font-weight-n {
+    font-weight: normal !important;
 }
 
-@mixin u-margin-padding-classes($size, $prefix: 'm', $property: 'margin') {
-  .u-#{$prefix}-#{$size} {
-    #{$property}: $size + px;
-
-    &i {
-      #{$property}: $size + px !important;
-    }
-  }
-
-  .u-#{$prefix}t-#{$size} {
-    #{$property}-top: $size + px;
-
-    &i {
-      #{$property}-top: $size + px !important;
-    }
-  }
-
-  .u-#{$prefix}r-#{$size} {
-    #{$property}-right: $size + px;
-
-    &i {
-      #{$property}-right: $size + px !important;
-    }
-  }
-  
-  .u-#{$prefix}b-#{$size} {
-    #{$property}-bottom: $size + px;
-
-    &i {
-      #{$property}-bottom: $size + px !important;
-    }
-  }
-
-  .u-#{$prefix}l-#{$size} {
-    #{$property}-left: $size + px;
-
-    &i {
-      #{$property}-left: $size + px !important;
-    }
-  }
-
-  .u-#{$prefix}x-#{$size} {
-    #{$property}-right: $size + px;
-    #{$property}-left: $size + px;
-
-    &i {
-      #{$property}-right: $size + px !important;
-      #{$property}-left: $size + px !important;
-    }
-  }
-
-  .u-#{$prefix}y-#{$size} {
-    #{$property}-top: $size + px;
-    #{$property}-bottom: $size + px;
-
-    &i {
-      #{$property}-top: $size + px !important;
-      #{$property}-bottom: $size + px !important;
-    }
-  }
+.font-weight-b {
+    font-weight: bold !important;
 }
 
-@for $i from 0 through ($u-margin-padding-max / $u-step-size) {
-  @include u-margin-padding-classes($i * $u-step-size);
-  @include u-margin-padding-classes($i * $u-step-size, 'p', 'padding');
+.fs-medium {
+    font-size: medium
+}
+
+.fs-xx-small {
+    font-size: xx-small
+}
+
+.fs-x-small {
+    font-size: x-small
+}
+
+.fs-small {
+    font-size: small
+}
+
+.fs-large {
+    font-size: large
+}
+
+.fs-x-large {
+    font-size: x-large
+}
+
+.fs-xx-large {
+    font-size: xx-large
+}
+
+.fs-smaller {
+    font-size: smaller
+}
+
+.fs-larger {
+    font-size: larger
+}
+
+.fs-length {
+    font-size: length
+}
+
+.fs-initial {
+    font-size: initial
+}
+
+.fs-inherit {
+    font-size: inherit
+}
+
+@for $i from 0 through ($min-height-max / $step-size) {
+    .mh-#{$i * $step-size} {
+        min-height: $i * $step-size + px;
+        &i {
+            min-height: $i * $step-size + px !important;
+        }
+    }
+}
+
+@mixin font-size-classes($size) {
+    .fs-#{$size} {
+        font-size: $size + px;
+        &-i {
+            font-size: $size + px !important;
+        }
+    }
+}
+
+@mixin margin-padding-classes($size, $prefix: 'm', $property: 'margin', $sufix: 'px') {
+    $sufix-name: '-px';
+    @if($sufix=='%') {
+        $sufix-name: '-ratio';
+    }
+    .#{$prefix}-#{$size}#{$sufix-name} {
+        #{$property}: $size + $sufix;
+        &-i {
+            #{$property}: $size + $sufix !important;
+        }
+    }
+    .#{$prefix}t-#{$size}#{$sufix-name} {
+        #{$property}-top: $size + $sufix;
+        &-i {
+            #{$property}-top: $size + $sufix !important;
+        }
+    }
+    .#{$prefix}r-#{$size}#{$sufix-name} {
+        #{$property}-right: $size + $sufix;
+        &-i {
+            #{$property}-right: $size + $sufix !important;
+        }
+    }
+    .#{$prefix}b-#{$size}#{$sufix-name} {
+        #{$property}-bottom: $size + $sufix;
+        &-i {
+            #{$property}-bottom: $size + $sufix !important;
+        }
+    }
+    .#{$prefix}l-#{$size}#{$sufix-name} {
+        #{$property}-left: $size + $sufix;
+        &-i {
+            #{$property}-left: $size + $sufix !important;
+        }
+    }
+    .#{$prefix}x-#{$size}#{$sufix-name} {
+        #{$property}-right: $size + $sufix;
+        #{$property}-left: $size + $sufix;
+        &-i {
+            #{$property}-right: $size + $sufix !important;
+            #{$property}-left: $size + $sufix !important;
+        }
+    }
+    .#{$prefix}y-#{$size}#{$sufix-name} {
+        #{$property}-top: $size + $sufix;
+        #{$property}-bottom: $size + $sufix;
+        &-i {
+            #{$property}-top: $size + $sufix !important;
+            #{$property}-bottom: $size + $sufix !important;
+        }
+    }
+}
+
+@for $i from 0 through ($margin-padding-max / $step-size) {
+    @include margin-padding-classes($i * $step-size);
+    @include margin-padding-classes($i * $step-size, 'p', 'padding', '%');
+    @include margin-padding-classes($i * $step-size);
+    @include margin-padding-classes($i * $step-size, 'p', 'padding', '%');
+    @include font-size-classes($i)
 }
