@@ -580,10 +580,10 @@
     padding-top: 5% !important;
     padding-bottom: 5% !important; }
 
-.fs-1 {
-  font-size: 1px; }
-  .fs-1-i {
-    font-size: 1px !important; }
+.fs-5 {
+  font-size: 5px; }
+  .fs-5-i {
+    font-size: 5px !important; }
 
 .m-10-px {
   margin: 10px; }
@@ -741,10 +741,10 @@
     padding-top: 10% !important;
     padding-bottom: 10% !important; }
 
-.fs-2 {
-  font-size: 2px; }
-  .fs-2-i {
-    font-size: 2px !important; }
+.fs-10 {
+  font-size: 10px; }
+  .fs-10-i {
+    font-size: 10px !important; }
 
 .m-15-px {
   margin: 15px; }
@@ -902,10 +902,10 @@
     padding-top: 15% !important;
     padding-bottom: 15% !important; }
 
-.fs-3 {
-  font-size: 3px; }
-  .fs-3-i {
-    font-size: 3px !important; }
+.fs-15 {
+  font-size: 15px; }
+  .fs-15-i {
+    font-size: 15px !important; }
 
 .m-20-px {
   margin: 20px; }
@@ -1063,10 +1063,10 @@
     padding-top: 20% !important;
     padding-bottom: 20% !important; }
 
-.fs-4 {
-  font-size: 4px; }
-  .fs-4-i {
-    font-size: 4px !important; }
+.fs-20 {
+  font-size: 20px; }
+  .fs-20-i {
+    font-size: 20px !important; }
 
 .m-25-px {
   margin: 25px; }
@@ -1224,10 +1224,10 @@
     padding-top: 25% !important;
     padding-bottom: 25% !important; }
 
-.fs-5 {
-  font-size: 5px; }
-  .fs-5-i {
-    font-size: 5px !important; }
+.fs-25 {
+  font-size: 25px; }
+  .fs-25-i {
+    font-size: 25px !important; }
 
 .m-30-px {
   margin: 30px; }
@@ -1385,10 +1385,10 @@
     padding-top: 30% !important;
     padding-bottom: 30% !important; }
 
-.fs-6 {
-  font-size: 6px; }
-  .fs-6-i {
-    font-size: 6px !important; }
+.fs-30 {
+  font-size: 30px; }
+  .fs-30-i {
+    font-size: 30px !important; }
 
 .m-35-px {
   margin: 35px; }
@@ -1546,10 +1546,10 @@
     padding-top: 35% !important;
     padding-bottom: 35% !important; }
 
-.fs-7 {
-  font-size: 7px; }
-  .fs-7-i {
-    font-size: 7px !important; }
+.fs-35 {
+  font-size: 35px; }
+  .fs-35-i {
+    font-size: 35px !important; }
 
 .m-40-px {
   margin: 40px; }
@@ -1707,10 +1707,10 @@
     padding-top: 40% !important;
     padding-bottom: 40% !important; }
 
-.fs-8 {
-  font-size: 8px; }
-  .fs-8-i {
-    font-size: 8px !important; }
+.fs-40 {
+  font-size: 40px; }
+  .fs-40-i {
+    font-size: 40px !important; }
 
 .m-45-px {
   margin: 45px; }
@@ -1868,10 +1868,10 @@
     padding-top: 45% !important;
     padding-bottom: 45% !important; }
 
-.fs-9 {
-  font-size: 9px; }
-  .fs-9-i {
-    font-size: 9px !important; }
+.fs-45 {
+  font-size: 45px; }
+  .fs-45-i {
+    font-size: 45px !important; }
 
 .m-50-px {
   margin: 50px; }
@@ -2029,10 +2029,10 @@
     padding-top: 50% !important;
     padding-bottom: 50% !important; }
 
-.fs-10 {
-  font-size: 10px; }
-  .fs-10-i {
-    font-size: 10px !important; }
+.fs-50 {
+  font-size: 50px; }
+  .fs-50-i {
+    font-size: 50px !important; }
 
 .m-55-px {
   margin: 55px; }
@@ -2190,10 +2190,10 @@
     padding-top: 55% !important;
     padding-bottom: 55% !important; }
 
-.fs-11 {
-  font-size: 11px; }
-  .fs-11-i {
-    font-size: 11px !important; }
+.fs-55 {
+  font-size: 55px; }
+  .fs-55-i {
+    font-size: 55px !important; }
 
 .m-60-px {
   margin: 60px; }
@@ -2351,10 +2351,10 @@
     padding-top: 60% !important;
     padding-bottom: 60% !important; }
 
-.fs-12 {
-  font-size: 12px; }
-  .fs-12-i {
-    font-size: 12px !important; }
+.fs-60 {
+  font-size: 60px; }
+  .fs-60-i {
+    font-size: 60px !important; }
 
 .m-65-px {
   margin: 65px; }
@@ -2512,10 +2512,10 @@
     padding-top: 65% !important;
     padding-bottom: 65% !important; }
 
-.fs-13 {
-  font-size: 13px; }
-  .fs-13-i {
-    font-size: 13px !important; }
+.fs-65 {
+  font-size: 65px; }
+  .fs-65-i {
+    font-size: 65px !important; }
 
 .m-70-px {
   margin: 70px; }
@@ -2673,10 +2673,10 @@
     padding-top: 70% !important;
     padding-bottom: 70% !important; }
 
-.fs-14 {
-  font-size: 14px; }
-  .fs-14-i {
-    font-size: 14px !important; }
+.fs-70 {
+  font-size: 70px; }
+  .fs-70-i {
+    font-size: 70px !important; }
 
 .m-75-px {
   margin: 75px; }
@@ -2834,10 +2834,10 @@
     padding-top: 75% !important;
     padding-bottom: 75% !important; }
 
-.fs-15 {
-  font-size: 15px; }
-  .fs-15-i {
-    font-size: 15px !important; }
+.fs-75 {
+  font-size: 75px; }
+  .fs-75-i {
+    font-size: 75px !important; }
 
 .m-80-px {
   margin: 80px; }
@@ -2995,10 +2995,10 @@
     padding-top: 80% !important;
     padding-bottom: 80% !important; }
 
-.fs-16 {
-  font-size: 16px; }
-  .fs-16-i {
-    font-size: 16px !important; }
+.fs-80 {
+  font-size: 80px; }
+  .fs-80-i {
+    font-size: 80px !important; }
 
 .m-85-px {
   margin: 85px; }
@@ -3156,10 +3156,10 @@
     padding-top: 85% !important;
     padding-bottom: 85% !important; }
 
-.fs-17 {
-  font-size: 17px; }
-  .fs-17-i {
-    font-size: 17px !important; }
+.fs-85 {
+  font-size: 85px; }
+  .fs-85-i {
+    font-size: 85px !important; }
 
 .m-90-px {
   margin: 90px; }
@@ -3317,10 +3317,10 @@
     padding-top: 90% !important;
     padding-bottom: 90% !important; }
 
-.fs-18 {
-  font-size: 18px; }
-  .fs-18-i {
-    font-size: 18px !important; }
+.fs-90 {
+  font-size: 90px; }
+  .fs-90-i {
+    font-size: 90px !important; }
 
 .m-95-px {
   margin: 95px; }
@@ -3478,10 +3478,10 @@
     padding-top: 95% !important;
     padding-bottom: 95% !important; }
 
-.fs-19 {
-  font-size: 19px; }
-  .fs-19-i {
-    font-size: 19px !important; }
+.fs-95 {
+  font-size: 95px; }
+  .fs-95-i {
+    font-size: 95px !important; }
 
 .m-100-px {
   margin: 100px; }
@@ -3639,7 +3639,7 @@
     padding-top: 100% !important;
     padding-bottom: 100% !important; }
 
-.fs-20 {
-  font-size: 20px; }
-  .fs-20-i {
-    font-size: 20px !important; }
+.fs-100 {
+  font-size: 100px; }
+  .fs-100-i {
+    font-size: 100px !important; }

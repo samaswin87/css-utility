@@ -8,45 +8,70 @@ Classes designed for easily applying the spacing and alignments without needing 
 
 ## Classes
 
-They are prefixed with `u-`. Classes that may require `!important` have an `i` suffix.
+Classes that may require `!important` have an `i` suffix.
+Classes that may require `%` have an `ratio` suffix.
 
 text-align: 
-- `.u-text-right`
-- `.u-text-left`
-- `.u-text-center`
+- `.text-right`
+- `.text-left`
+- `.text-center`
 
 float: 
-- `.u-float-right`
-- `.u-float-left`
-- `.u-float-none`
+- `.float-right`
+- `.float-left`
+- `.float-none`
+
+font-size: size is `:medium| xx-small| x-small| small| large| x-large| xx-large| smaller| larger| length| initial| inherit` and `0-100`
+- `fs-xx-#{size}` for `font-size`
+
+min-height: size is `0 - 200` incrementing up by `5%`
+- `.mh-#{size}-ratio` for `margin`, `.mh-#{size}-ratio-i` with `!important`
+
+margin: size is `0 - 100` incrementing up by `5%`
+- `.m-#{size}-ratio` for `margin`, `.m-#{size}-ratio-i` with `!important` (all following classes have the same option)
+- `.mt-#{size}-ratio` for `top-margin`
+- `.mr-#{size}-ratio` for `right-margin`
+- `.mb-#{size}-ratio` for `bottom-margin`
+- `.ml-#{size}-ratio` for `left-margin`
+- `.mx-#{size}-ratio` for `left-margin` and `right-margin`
+- `.my-#{size}-ratio` for `top-margin` and `bottom-margin`
+
+padding: size is `0 - 100` incrementing up by `5%`
+- `.p-#{size}-ratio` for `padding`, `.p-#{size}-ratio-i` with `!important` (all following classes have the same option)
+- `.pt-#{size}-ratio` for `top-padding`
+- `.pr-#{size}-ratio` for `right-padding`
+- `.pb-#{size}-ratio` for `bottom-padding`
+- `.pl-#{size}-ratio` for `left-padding`
+- `.px-#{size}-ratio` for `left-padding` and `right-padding`
+- `.py-#{size}-ratio` for `top-padding` and `bottom-padding`
 
 min-height: size is `0 - 200` incrementing up by `5px`
-- `.mh-#{size}` for `margin`, `.mh-#{size}i` with `!important`
+- `.mh-#{size}-px` for `margin`, `.mh-#{size}-px-i` with `!important`
 
 margin: size is `0 - 100` incrementing up by `5px`
-- `.u-m-#{size}` for `margin`, `.u-m-#{size}i` with `!important` (all following classes have the same option)
-- `.u-mt-#{size}` for `top-margin`
-- `.u-mr-#{size}` for `right-margin`
-- `.u-mb-#{size}` for `bottom-margin`
-- `.u-ml-#{size}` for `left-margin`
-- `.u-mx-#{size}` for `left-margin` and `right-margin`
-- `.u-my-#{size}` for `top-margin` and `bottom-margin`
+- `.m-#{size}-px` for `margin`, `.m-#{size}-px-i` with `!important` (all following classes have the same option)
+- `.mt-#{size}-px` for `top-margin`
+- `.mr-#{size}-px` for `right-margin`
+- `.mb-#{size}-px` for `bottom-margin`
+- `.ml-#{size}-px` for `left-margin`
+- `.mx-#{size}-px` for `left-margin` and `right-margin`
+- `.my-#{size}-px` for `top-margin` and `bottom-margin`
 
 padding: size is `0 - 100` incrementing up by `5px`
-- `.u-p-#{size}` for `padding`, `.u-p-#{size}i` with `!important` (all following classes have the same option)
-- `.u-pt-#{size}` for `top-padding`
-- `.u-pr-#{size}` for `right-padding`
-- `.u-pb-#{size}` for `bottom-padding`
-- `.u-pl-#{size}` for `left-padding`
-- `.u-px-#{size}` for `left-padding` and `right-padding`
-- `.u-py-#{size}` for `top-padding` and `bottom-padding`
+- `.p-#{size}-px` for `padding`, `.p-#{size}-px-i` with `!important` (all following classes have the same option)
+- `.pt-#{size}-px` for `top-padding`
+- `.pr-#{size}-px` for `right-padding`
+- `.pb-#{size}-px` for `bottom-padding`
+- `.pl-#{size}-px` for `left-padding`
+- `.px-#{size}-px` for `left-padding` and `right-padding`
+- `.py-#{size}-px` for `top-padding` and `bottom-padding`
 
 ## Development
 
 Requires yarn or npm (use yarn don't be dumb).
 
 Setup:
-- `git clone git@github.com:postedin/css-utility-classes.git`
+- `git clone git@github.com:samaswin87/css-utility-classes.git`
 - `yarn setup`
 
 Commands:
