@@ -21,8 +21,25 @@ float:
 - `.float-left`
 - `.float-none`
 
+font-weight:
+- `fw-b` for `font-weight` with `bold`
+- `fw-n` for `font-weight` with `normal`
+
 font-size: size is `:medium| xx-small| x-small| small| large| x-large| xx-large| smaller| larger| length| initial| inherit` and `0-100`
 - `fs-xx-#{size}` for `font-size`
+
+width: size is `0-100`
+- `w-#{size}` for `width`
+- `w-i-#{size}` for `width` with `!important`
+- `w-ratio-#{size}` for `width` with `%`
+- `w-ratio-i-#{size}` for `width` with `%` and `!important`
+
+height: size is `0-100`
+- `h-#{size}` for `height`
+- `h-i-#{size}` for `height` with `!important`
+- `h-ratio-#{size}` for `height` with `%`
+- `h-ratio-i-#{size}` for `height` with `%` and `!important`
+
 
 min-height: size is `0 - 200` incrementing up by `5%`
 - `.mh-#{size}-ratio` for `margin`, `.mh-#{size}-ratio-i` with `!important`

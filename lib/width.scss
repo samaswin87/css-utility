@@ -13,7 +13,7 @@ $max: 100 !default;
         }
     }
     .w-ratio-#{$size} {
-        height: $size#{'%'};
+        width: $size#{'%'};
         &-i {
             width: $size#{'%'} !important;
         }

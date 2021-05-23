@@ -9,7 +9,7 @@
     height: 0px !important; }
 
 .w-ratio-0 {
-  height: 0%; }
+  width: 0%; }
   .w-ratio-0-i {
     width: 0% !important; }
 
@@ -29,7 +29,7 @@
     height: 1px !important; }
 
 .w-ratio-1 {
-  height: 1%; }
+  width: 1%; }
   .w-ratio-1-i {
     width: 1% !important; }
 
@@ -49,7 +49,7 @@
     height: 2px !important; }
 
 .w-ratio-2 {
-  height: 2%; }
+  width: 2%; }
   .w-ratio-2-i {
     width: 2% !important; }
 
@@ -69,7 +69,7 @@
     height: 3px !important; }
 
 .w-ratio-3 {
-  height: 3%; }
+  width: 3%; }
   .w-ratio-3-i {
     width: 3% !important; }
 
@@ -89,7 +89,7 @@
     height: 4px !important; }
 
 .w-ratio-4 {
-  height: 4%; }
+  width: 4%; }
   .w-ratio-4-i {
     width: 4% !important; }
 
@@ -109,7 +109,7 @@
     height: 5px !important; }
 
 .w-ratio-5 {
-  height: 5%; }
+  width: 5%; }
   .w-ratio-5-i {
     width: 5% !important; }
 
@@ -129,7 +129,7 @@
     height: 6px !important; }
 
 .w-ratio-6 {
-  height: 6%; }
+  width: 6%; }
   .w-ratio-6-i {
     width: 6% !important; }
 
@@ -149,7 +149,7 @@
     height: 7px !important; }
 
 .w-ratio-7 {
-  height: 7%; }
+  width: 7%; }
   .w-ratio-7-i {
     width: 7% !important; }
 
@@ -169,7 +169,7 @@
     height: 8px !important; }
 
 .w-ratio-8 {
-  height: 8%; }
+  width: 8%; }
   .w-ratio-8-i {
     width: 8% !important; }
 
@@ -189,7 +189,7 @@
     height: 9px !important; }
 
 .w-ratio-9 {
-  height: 9%; }
+  width: 9%; }
   .w-ratio-9-i {
     width: 9% !important; }
 
@@ -209,7 +209,7 @@
     height: 10px !important; }
 
 .w-ratio-10 {
-  height: 10%; }
+  width: 10%; }
   .w-ratio-10-i {
     width: 10% !important; }
 
@@ -229,7 +229,7 @@
     height: 11px !important; }
 
 .w-ratio-11 {
-  height: 11%; }
+  width: 11%; }
   .w-ratio-11-i {
     width: 11% !important; }
 
@@ -249,7 +249,7 @@
     height: 12px !important; }
 
 .w-ratio-12 {
-  height: 12%; }
+  width: 12%; }
   .w-ratio-12-i {
     width: 12% !important; }
 
@@ -269,7 +269,7 @@
     height: 13px !important; }
 
 .w-ratio-13 {
-  height: 13%; }
+  width: 13%; }
   .w-ratio-13-i {
     width: 13% !important; }
 
@@ -289,7 +289,7 @@
     height: 14px !important; }
 
 .w-ratio-14 {
-  height: 14%; }
+  width: 14%; }
   .w-ratio-14-i {
     width: 14% !important; }
 
@@ -309,7 +309,7 @@
     height: 15px !important; }
 
 .w-ratio-15 {
-  height: 15%; }
+  width: 15%; }
   .w-ratio-15-i {
     width: 15% !important; }
 
@@ -329,7 +329,7 @@
     height: 16px !important; }
 
 .w-ratio-16 {
-  height: 16%; }
+  width: 16%; }
   .w-ratio-16-i {
     width: 16% !important; }
 
@@ -349,7 +349,7 @@
     height: 17px !important; }
 
 .w-ratio-17 {
-  height: 17%; }
+  width: 17%; }
   .w-ratio-17-i {
     width: 17% !important; }
 
@@ -369,7 +369,7 @@
     height: 18px !important; }
 
 .w-ratio-18 {
-  height: 18%; }
+  width: 18%; }
   .w-ratio-18-i {
     width: 18% !important; }
 
@@ -389,7 +389,7 @@
     height: 19px !important; }
 
 .w-ratio-19 {
-  height: 19%; }
+  width: 19%; }
   .w-ratio-19-i {
     width: 19% !important; }
 
@@ -409,7 +409,7 @@
     height: 20px !important; }
 
 .w-ratio-20 {
-  height: 20%; }
+  width: 20%; }
   .w-ratio-20-i {
     width: 20% !important; }
 
@@ -429,7 +429,7 @@
     height: 21px !important; }
 
 .w-ratio-21 {
-  height: 21%; }
+  width: 21%; }
   .w-ratio-21-i {
     width: 21% !important; }
 
@@ -449,7 +449,7 @@
     height: 22px !important; }
 
 .w-ratio-22 {
-  height: 22%; }
+  width: 22%; }
   .w-ratio-22-i {
     width: 22% !important; }
 
@@ -469,7 +469,7 @@
     height: 23px !important; }
 
 .w-ratio-23 {
-  height: 23%; }
+  width: 23%; }
   .w-ratio-23-i {
     width: 23% !important; }
 
@@ -489,7 +489,7 @@
     height: 24px !important; }
 
 .w-ratio-24 {
-  height: 24%; }
+  width: 24%; }
   .w-ratio-24-i {
     width: 24% !important; }
 
@@ -509,7 +509,7 @@
     height: 25px !important; }
 
 .w-ratio-25 {
-  height: 25%; }
+  width: 25%; }
   .w-ratio-25-i {
     width: 25% !important; }
 
@@ -529,7 +529,7 @@
     height: 26px !important; }
 
 .w-ratio-26 {
-  height: 26%; }
+  width: 26%; }
   .w-ratio-26-i {
     width: 26% !important; }
 
@@ -549,7 +549,7 @@
     height: 27px !important; }
 
 .w-ratio-27 {
-  height: 27%; }
+  width: 27%; }
   .w-ratio-27-i {
     width: 27% !important; }
 
@@ -569,7 +569,7 @@
     height: 28px !important; }
 
 .w-ratio-28 {
-  height: 28%; }
+  width: 28%; }
   .w-ratio-28-i {
     width: 28% !important; }
 
@@ -589,7 +589,7 @@
     height: 29px !important; }
 
 .w-ratio-29 {
-  height: 29%; }
+  width: 29%; }
   .w-ratio-29-i {
     width: 29% !important; }
 
@@ -609,7 +609,7 @@
     height: 30px !important; }
 
 .w-ratio-30 {
-  height: 30%; }
+  width: 30%; }
   .w-ratio-30-i {
     width: 30% !important; }
 
@@ -629,7 +629,7 @@
     height: 31px !important; }
 
 .w-ratio-31 {
-  height: 31%; }
+  width: 31%; }
   .w-ratio-31-i {
     width: 31% !important; }
 
@@ -649,7 +649,7 @@
     height: 32px !important; }
 
 .w-ratio-32 {
-  height: 32%; }
+  width: 32%; }
   .w-ratio-32-i {
     width: 32% !important; }
 
@@ -669,7 +669,7 @@
     height: 33px !important; }
 
 .w-ratio-33 {
-  height: 33%; }
+  width: 33%; }
   .w-ratio-33-i {
     width: 33% !important; }
 
@@ -689,7 +689,7 @@
     height: 34px !important; }
 
 .w-ratio-34 {
-  height: 34%; }
+  width: 34%; }
   .w-ratio-34-i {
     width: 34% !important; }
 
@@ -709,7 +709,7 @@
     height: 35px !important; }
 
 .w-ratio-35 {
-  height: 35%; }
+  width: 35%; }
   .w-ratio-35-i {
     width: 35% !important; }
 
@@ -729,7 +729,7 @@
     height: 36px !important; }
 
 .w-ratio-36 {
-  height: 36%; }
+  width: 36%; }
   .w-ratio-36-i {
     width: 36% !important; }
 
@@ -749,7 +749,7 @@
     height: 37px !important; }
 
 .w-ratio-37 {
-  height: 37%; }
+  width: 37%; }
   .w-ratio-37-i {
     width: 37% !important; }
 
@@ -769,7 +769,7 @@
     height: 38px !important; }
 
 .w-ratio-38 {
-  height: 38%; }
+  width: 38%; }
   .w-ratio-38-i {
     width: 38% !important; }
 
@@ -789,7 +789,7 @@
     height: 39px !important; }
 
 .w-ratio-39 {
-  height: 39%; }
+  width: 39%; }
   .w-ratio-39-i {
     width: 39% !important; }
 
@@ -809,7 +809,7 @@
     height: 40px !important; }
 
 .w-ratio-40 {
-  height: 40%; }
+  width: 40%; }
   .w-ratio-40-i {
     width: 40% !important; }
 
@@ -829,7 +829,7 @@
     height: 41px !important; }
 
 .w-ratio-41 {
-  height: 41%; }
+  width: 41%; }
   .w-ratio-41-i {
     width: 41% !important; }
 
@@ -849,7 +849,7 @@
     height: 42px !important; }
 
 .w-ratio-42 {
-  height: 42%; }
+  width: 42%; }
   .w-ratio-42-i {
     width: 42% !important; }
 
@@ -869,7 +869,7 @@
     height: 43px !important; }
 
 .w-ratio-43 {
-  height: 43%; }
+  width: 43%; }
   .w-ratio-43-i {
     width: 43% !important; }
 
@@ -889,7 +889,7 @@
     height: 44px !important; }
 
 .w-ratio-44 {
-  height: 44%; }
+  width: 44%; }
   .w-ratio-44-i {
     width: 44% !important; }
 
@@ -909,7 +909,7 @@
     height: 45px !important; }
 
 .w-ratio-45 {
-  height: 45%; }
+  width: 45%; }
   .w-ratio-45-i {
     width: 45% !important; }
 
@@ -929,7 +929,7 @@
     height: 46px !important; }
 
 .w-ratio-46 {
-  height: 46%; }
+  width: 46%; }
   .w-ratio-46-i {
     width: 46% !important; }
 
@@ -949,7 +949,7 @@
     height: 47px !important; }
 
 .w-ratio-47 {
-  height: 47%; }
+  width: 47%; }
   .w-ratio-47-i {
     width: 47% !important; }
 
@@ -969,7 +969,7 @@
     height: 48px !important; }
 
 .w-ratio-48 {
-  height: 48%; }
+  width: 48%; }
   .w-ratio-48-i {
     width: 48% !important; }
 
@@ -989,7 +989,7 @@
     height: 49px !important; }
 
 .w-ratio-49 {
-  height: 49%; }
+  width: 49%; }
   .w-ratio-49-i {
     width: 49% !important; }
 
@@ -1009,7 +1009,7 @@
     height: 50px !important; }
 
 .w-ratio-50 {
-  height: 50%; }
+  width: 50%; }
   .w-ratio-50-i {
     width: 50% !important; }
 
@@ -1029,7 +1029,7 @@
     height: 51px !important; }
 
 .w-ratio-51 {
-  height: 51%; }
+  width: 51%; }
   .w-ratio-51-i {
     width: 51% !important; }
 
@@ -1049,7 +1049,7 @@
     height: 52px !important; }
 
 .w-ratio-52 {
-  height: 52%; }
+  width: 52%; }
   .w-ratio-52-i {
     width: 52% !important; }
 
@@ -1069,7 +1069,7 @@
     height: 53px !important; }
 
 .w-ratio-53 {
-  height: 53%; }
+  width: 53%; }
   .w-ratio-53-i {
     width: 53% !important; }
 
@@ -1089,7 +1089,7 @@
     height: 54px !important; }
 
 .w-ratio-54 {
-  height: 54%; }
+  width: 54%; }
   .w-ratio-54-i {
     width: 54% !important; }
 
@@ -1109,7 +1109,7 @@
     height: 55px !important; }
 
 .w-ratio-55 {
-  height: 55%; }
+  width: 55%; }
   .w-ratio-55-i {
     width: 55% !important; }
 
@@ -1129,7 +1129,7 @@
     height: 56px !important; }
 
 .w-ratio-56 {
-  height: 56%; }
+  width: 56%; }
   .w-ratio-56-i {
     width: 56% !important; }
 
@@ -1149,7 +1149,7 @@
     height: 57px !important; }
 
 .w-ratio-57 {
-  height: 57%; }
+  width: 57%; }
   .w-ratio-57-i {
     width: 57% !important; }
 
@@ -1169,7 +1169,7 @@
     height: 58px !important; }
 
 .w-ratio-58 {
-  height: 58%; }
+  width: 58%; }
   .w-ratio-58-i {
     width: 58% !important; }
 
@@ -1189,7 +1189,7 @@
     height: 59px !important; }
 
 .w-ratio-59 {
-  height: 59%; }
+  width: 59%; }
   .w-ratio-59-i {
     width: 59% !important; }
 
@@ -1209,7 +1209,7 @@
     height: 60px !important; }
 
 .w-ratio-60 {
-  height: 60%; }
+  width: 60%; }
   .w-ratio-60-i {
     width: 60% !important; }
 
@@ -1229,7 +1229,7 @@
     height: 61px !important; }
 
 .w-ratio-61 {
-  height: 61%; }
+  width: 61%; }
   .w-ratio-61-i {
     width: 61% !important; }
 
@@ -1249,7 +1249,7 @@
     height: 62px !important; }
 
 .w-ratio-62 {
-  height: 62%; }
+  width: 62%; }
   .w-ratio-62-i {
     width: 62% !important; }
 
@@ -1269,7 +1269,7 @@
     height: 63px !important; }
 
 .w-ratio-63 {
-  height: 63%; }
+  width: 63%; }
   .w-ratio-63-i {
     width: 63% !important; }
 
@@ -1289,7 +1289,7 @@
     height: 64px !important; }
 
 .w-ratio-64 {
-  height: 64%; }
+  width: 64%; }
   .w-ratio-64-i {
     width: 64% !important; }
 
@@ -1309,7 +1309,7 @@
     height: 65px !important; }
 
 .w-ratio-65 {
-  height: 65%; }
+  width: 65%; }
   .w-ratio-65-i {
     width: 65% !important; }
 
@@ -1329,7 +1329,7 @@
     height: 66px !important; }
 
 .w-ratio-66 {
-  height: 66%; }
+  width: 66%; }
   .w-ratio-66-i {
     width: 66% !important; }
 
@@ -1349,7 +1349,7 @@
     height: 67px !important; }
 
 .w-ratio-67 {
-  height: 67%; }
+  width: 67%; }
   .w-ratio-67-i {
     width: 67% !important; }
 
@@ -1369,7 +1369,7 @@
     height: 68px !important; }
 
 .w-ratio-68 {
-  height: 68%; }
+  width: 68%; }
   .w-ratio-68-i {
     width: 68% !important; }
 
@@ -1389,7 +1389,7 @@
     height: 69px !important; }
 
 .w-ratio-69 {
-  height: 69%; }
+  width: 69%; }
   .w-ratio-69-i {
     width: 69% !important; }
 
@@ -1409,7 +1409,7 @@
     height: 70px !important; }
 
 .w-ratio-70 {
-  height: 70%; }
+  width: 70%; }
   .w-ratio-70-i {
     width: 70% !important; }
 
@@ -1429,7 +1429,7 @@
     height: 71px !important; }
 
 .w-ratio-71 {
-  height: 71%; }
+  width: 71%; }
   .w-ratio-71-i {
     width: 71% !important; }
 
@@ -1449,7 +1449,7 @@
     height: 72px !important; }
 
 .w-ratio-72 {
-  height: 72%; }
+  width: 72%; }
   .w-ratio-72-i {
     width: 72% !important; }
 
@@ -1469,7 +1469,7 @@
     height: 73px !important; }
 
 .w-ratio-73 {
-  height: 73%; }
+  width: 73%; }
   .w-ratio-73-i {
     width: 73% !important; }
 
@@ -1489,7 +1489,7 @@
     height: 74px !important; }
 
 .w-ratio-74 {
-  height: 74%; }
+  width: 74%; }
   .w-ratio-74-i {
     width: 74% !important; }
 
@@ -1509,7 +1509,7 @@
     height: 75px !important; }
 
 .w-ratio-75 {
-  height: 75%; }
+  width: 75%; }
   .w-ratio-75-i {
     width: 75% !important; }
 
@@ -1529,7 +1529,7 @@
     height: 76px !important; }
 
 .w-ratio-76 {
-  height: 76%; }
+  width: 76%; }
   .w-ratio-76-i {
     width: 76% !important; }
 
@@ -1549,7 +1549,7 @@
     height: 77px !important; }
 
 .w-ratio-77 {
-  height: 77%; }
+  width: 77%; }
   .w-ratio-77-i {
     width: 77% !important; }
 
@@ -1569,7 +1569,7 @@
     height: 78px !important; }
 
 .w-ratio-78 {
-  height: 78%; }
+  width: 78%; }
   .w-ratio-78-i {
     width: 78% !important; }
 
@@ -1589,7 +1589,7 @@
     height: 79px !important; }
 
 .w-ratio-79 {
-  height: 79%; }
+  width: 79%; }
   .w-ratio-79-i {
     width: 79% !important; }
 
@@ -1609,7 +1609,7 @@
     height: 80px !important; }
 
 .w-ratio-80 {
-  height: 80%; }
+  width: 80%; }
   .w-ratio-80-i {
     width: 80% !important; }
 
@@ -1629,7 +1629,7 @@
     height: 81px !important; }
 
 .w-ratio-81 {
-  height: 81%; }
+  width: 81%; }
   .w-ratio-81-i {
     width: 81% !important; }
 
@@ -1649,7 +1649,7 @@
     height: 82px !important; }
 
 .w-ratio-82 {
-  height: 82%; }
+  width: 82%; }
   .w-ratio-82-i {
     width: 82% !important; }
 
@@ -1669,7 +1669,7 @@
     height: 83px !important; }
 
 .w-ratio-83 {
-  height: 83%; }
+  width: 83%; }
   .w-ratio-83-i {
     width: 83% !important; }
 
@@ -1689,7 +1689,7 @@
     height: 84px !important; }
 
 .w-ratio-84 {
-  height: 84%; }
+  width: 84%; }
   .w-ratio-84-i {
     width: 84% !important; }
 
@@ -1709,7 +1709,7 @@
     height: 85px !important; }
 
 .w-ratio-85 {
-  height: 85%; }
+  width: 85%; }
   .w-ratio-85-i {
     width: 85% !important; }
 
@@ -1729,7 +1729,7 @@
     height: 86px !important; }
 
 .w-ratio-86 {
-  height: 86%; }
+  width: 86%; }
   .w-ratio-86-i {
     width: 86% !important; }
 
@@ -1749,7 +1749,7 @@
     height: 87px !important; }
 
 .w-ratio-87 {
-  height: 87%; }
+  width: 87%; }
   .w-ratio-87-i {
     width: 87% !important; }
 
@@ -1769,7 +1769,7 @@
     height: 88px !important; }
 
 .w-ratio-88 {
-  height: 88%; }
+  width: 88%; }
   .w-ratio-88-i {
     width: 88% !important; }
 
@@ -1789,7 +1789,7 @@
     height: 89px !important; }
 
 .w-ratio-89 {
-  height: 89%; }
+  width: 89%; }
   .w-ratio-89-i {
     width: 89% !important; }
 
@@ -1809,7 +1809,7 @@
     height: 90px !important; }
 
 .w-ratio-90 {
-  height: 90%; }
+  width: 90%; }
   .w-ratio-90-i {
     width: 90% !important; }
 
@@ -1829,7 +1829,7 @@
     height: 91px !important; }
 
 .w-ratio-91 {
-  height: 91%; }
+  width: 91%; }
   .w-ratio-91-i {
     width: 91% !important; }
 
@@ -1849,7 +1849,7 @@
     height: 92px !important; }
 
 .w-ratio-92 {
-  height: 92%; }
+  width: 92%; }
   .w-ratio-92-i {
     width: 92% !important; }
 
@@ -1869,7 +1869,7 @@
     height: 93px !important; }
 
 .w-ratio-93 {
-  height: 93%; }
+  width: 93%; }
   .w-ratio-93-i {
     width: 93% !important; }
 
@@ -1889,7 +1889,7 @@
     height: 94px !important; }
 
 .w-ratio-94 {
-  height: 94%; }
+  width: 94%; }
   .w-ratio-94-i {
     width: 94% !important; }
 
@@ -1909,7 +1909,7 @@
     height: 95px !important; }
 
 .w-ratio-95 {
-  height: 95%; }
+  width: 95%; }
   .w-ratio-95-i {
     width: 95% !important; }
 
@@ -1929,7 +1929,7 @@
     height: 96px !important; }
 
 .w-ratio-96 {
-  height: 96%; }
+  width: 96%; }
   .w-ratio-96-i {
     width: 96% !important; }
 
@@ -1949,7 +1949,7 @@
     height: 97px !important; }
 
 .w-ratio-97 {
-  height: 97%; }
+  width: 97%; }
   .w-ratio-97-i {
     width: 97% !important; }
 
@@ -1969,7 +1969,7 @@
     height: 98px !important; }
 
 .w-ratio-98 {
-  height: 98%; }
+  width: 98%; }
   .w-ratio-98-i {
     width: 98% !important; }
 
@@ -1989,7 +1989,7 @@
     height: 99px !important; }
 
 .w-ratio-99 {
-  height: 99%; }
+  width: 99%; }
   .w-ratio-99-i {
     width: 99% !important; }
 
@@ -2009,7 +2009,7 @@
     height: 100px !important; }
 
 .w-ratio-100 {
-  height: 100%; }
+  width: 100%; }
   .w-ratio-100-i {
     width: 100% !important; }
 
