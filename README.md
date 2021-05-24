@@ -44,7 +44,7 @@ height: size is `0-100`
 min-height: size is `0 - 200` incrementing up by `5%`
 - `.mh-#{size}-ratio` for `margin`, `.mh-#{size}-ratio-i` with `!important`
 
-margin: size is `0 - 100` incrementing up by `5%`
+margin: size is `0 - 100`
 - `.m-#{size}-ratio` for `margin`, `.m-#{size}-ratio-i` with `!important` (all following classes have the same option)
 - `.mt-#{size}-ratio` for `top-margin`
 - `.mr-#{size}-ratio` for `right-margin`
@@ -53,7 +53,7 @@ margin: size is `0 - 100` incrementing up by `5%`
 - `.mx-#{size}-ratio` for `left-margin` and `right-margin`
 - `.my-#{size}-ratio` for `top-margin` and `bottom-margin`
 
-padding: size is `0 - 100` incrementing up by `5%`
+padding: size is `0 - 100`
 - `.p-#{size}-ratio` for `padding`, `.p-#{size}-ratio-i` with `!important` (all following classes have the same option)
 - `.pt-#{size}-ratio` for `top-padding`
 - `.pr-#{size}-ratio` for `right-padding`
@@ -62,10 +62,7 @@ padding: size is `0 - 100` incrementing up by `5%`
 - `.px-#{size}-ratio` for `left-padding` and `right-padding`
 - `.py-#{size}-ratio` for `top-padding` and `bottom-padding`
 
-min-height: size is `0 - 200` incrementing up by `5px`
-- `.mh-#{size}-px` for `margin`, `.mh-#{size}-px-i` with `!important`
-
-margin: size is `0 - 100` incrementing up by `5px`
+margin: size is `0 - 100`
 - `.m-#{size}-px` for `margin`, `.m-#{size}-px-i` with `!important` (all following classes have the same option)
 - `.mt-#{size}-px` for `top-margin`
 - `.mr-#{size}-px` for `right-margin`
@@ -74,7 +71,7 @@ margin: size is `0 - 100` incrementing up by `5px`
 - `.mx-#{size}-px` for `left-margin` and `right-margin`
 - `.my-#{size}-px` for `top-margin` and `bottom-margin`
 
-padding: size is `0 - 100` incrementing up by `5px`
+padding: size is `0 - 100`
 - `.p-#{size}-px` for `padding`, `.p-#{size}-px-i` with `!important` (all following classes have the same option)
 - `.pt-#{size}-px` for `top-padding`
 - `.pr-#{size}-px` for `right-padding`

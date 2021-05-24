@@ -153,10 +153,10 @@ $margin-padding-max: 100 !default;
     }
 }
 
-@for $i from 0 through ($margin-padding-max / $step-size) {
-    @include margin-padding-classes($i * $step-size);
-    @include margin-padding-classes($i * $step-size, 'p', 'padding');
-    @include margin-padding-classes($i * $step-size, 'm', 'margin', '%');
-    @include margin-padding-classes($i * $step-size, 'p', 'padding', '%');
-    @include font-size-classes($i * $step-size)
+@for $i from 0 through ($margin-padding-max) {
+    @include margin-padding-classes($i);
+    @include margin-padding-classes($i, 'p', 'padding');
+    @include margin-padding-classes($i, 'm', 'margin', '%');
+    @include margin-padding-classes($i, 'p', 'padding', '%');
+    @include font-size-classes($i)
 }
