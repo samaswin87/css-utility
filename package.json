@@ -1,11 +1,11 @@
 {
-    "name": "css-utility",
+    "name": "@samaswin87/css-utility",
     "version": "1.0.0",
     "description": "Generic CSS utility classes.",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/samaswin87/css-utility"
+        "url": "git://github.com/samaswin87/css-utility.git"
     },
     "author": "aswin.r312@outlook.com",
     "license": "MIT",
