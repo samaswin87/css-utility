@@ -1,10 +1,10 @@
-# css-utility-classes: Generic CSS utility classes
+# css-utility: Generic CSS utility classes
 
 Classes designed for easily applying the spacing and alignments without needing to add new classes/modifiers for everything.
 
 ## Installation
 
-`yarn add css-utility-classes`
+`yarn add css-utility`
 
 ## Classes
 
@@ -85,7 +85,7 @@ padding: size is `0 - 100`
 Requires yarn or npm (use yarn don't be dumb).
 
 Setup:
-- `git clone git@github.com:samaswin87/css-utility-classes.git`
+- `git clone git@github.com:samaswin87/css-utility.git`
 - `yarn setup`
 
 Commands:
