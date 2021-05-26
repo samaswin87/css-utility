@@ -16,10 +16,16 @@ text-align:
 - `.text-left`
 - `.text-center`
 
-float: 
+float:
 - `.float-right`
 - `.float-left`
 - `.float-none`
+
+display:
+- `.d-{property}`
+
+position:
+- `.p-{property}`
 
 font-weight:
 - `fw-b` for `font-weight` with `bold`
