@@ -27,6 +27,9 @@ display:
 position:
 - `.p-{property}`
 
+cursor:
+- `.c-{property}`
+
 font-weight:
 - `fw-b` for `font-weight` with `bold`
 - `fw-n` for `font-weight` with `normal`
@@ -35,16 +38,16 @@ font-size: size is `:medium| xx-small| x-small| small| large| x-large| xx-large|
 - `fs-xx-#{size}` for `font-size`
 
 width: size is `0-100`
-- `w-#{size}` for `width`
-- `w-i-#{size}` for `width` with `!important`
-- `w-ratio-#{size}` for `width` with `%`
-- `w-ratio-i-#{size}` for `width` with `%` and `!important`
+- `w-#{size}-px` for `width`
+- `w-#{size}-px-i` for `width` with `!important`
+- `w-#{size}-ratio` for `width` with `%`
+- `w-#{size}-ratio-i` for `width` with `%` and `!important`
 
 height: size is `0-100`
-- `h-#{size}` for `height`
-- `h-i-#{size}` for `height` with `!important`
-- `h-ratio-#{size}` for `height` with `%`
-- `h-ratio-i-#{size}` for `height` with `%` and `!important`
+- `w-#{size}-px` for `height`
+- `w-#{size}-px-i` for `height` with `!important`
+- `w-#{size}-ratio` for `height` with `%`
+- `w-#{size}-ratio-i` for `height` with `%` and `!important`
 
 
 min-height: size is `0 - 200` incrementing up by `5%`
