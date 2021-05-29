@@ -225,46 +225,46 @@ $margin-padding-max: 100 !default;
         $sufix-name: '-ratio';
     }
     .#{$prefix}-#{$size}#{$sufix-name} {
-        #{$property}: $size + $sufix;
+        #{$property}: $size#{$sufix};
         &-i {
             #{$property}: $size#{$sufix} !important;
         }
     }
     .#{$prefix}t-#{$size}#{$sufix-name} {
-        #{$property}-top: $size + $sufix;
+        #{$property}-top: $size#{$sufix};
         &-i {
             #{$property}-top: $size#{$sufix} !important;
         }
     }
     .#{$prefix}r-#{$size}#{$sufix-name} {
-        #{$property}-right: $size + $sufix;
+        #{$property}-right: $size#{$sufix};
         &-i {
             #{$property}-right: $size#{$sufix} !important;
         }
     }
     .#{$prefix}b-#{$size}#{$sufix-name} {
-        #{$property}-bottom: $size + $sufix;
+        #{$property}-bottom: $size#{$sufix};
         &-i {
             #{$property}-bottom: $size#{$sufix} !important;
         }
     }
     .#{$prefix}l-#{$size}#{$sufix-name} {
-        #{$property}-left: $size + $sufix;
+        #{$property}-left: $size#{$sufix};
         &-i {
             #{$property}-left: $size#{$sufix} !important;
         }
     }
     .#{$prefix}x-#{$size}#{$sufix-name} {
-        #{$property}-right: $size + $sufix;
-        #{$property}-left: $size + $sufix;
+        #{$property}-right: $size#{$sufix};
+        #{$property}-left: $size#{$sufix};
         &-i {
             #{$property}-right: $size#{$sufix} !important;
             #{$property}-left: $size#{$sufix} !important;
         }
     }
     .#{$prefix}y-#{$size}#{$sufix-name} {
-        #{$property}-top: $size + $sufix;
-        #{$property}-bottom: $size + $sufix;
+        #{$property}-top: $size#{$sufix};
+        #{$property}-bottom: $size#{$sufix};
         &-i {
             #{$property}-top: $size#{$sufix} !important;
             #{$property}-bottom: $size#{$sufix} !important;
