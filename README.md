@@ -9,7 +9,7 @@ Classes designed for easily applying the spacing and alignments without needing 
 ## Classes
 
 Classes that may require `!important` have an `i` suffix.
-Classes that may require `%` have an `ratio` suffix.
+Classes that may require `%` have an `p` suffix.
 
 text-align: 
 - `.text-right`
@@ -38,56 +38,64 @@ font-size: size is `:medium| xx-small| x-small| small| large| x-large| xx-large|
 - `fs-xx-#{size}` for `font-size`
 
 width: size is `0-100`
-- `w-#{size}-px` for `width`
-- `w-#{size}-px-i` for `width` with `!important`
-- `w-#{size}-ratio` for `width` with `%`
-- `w-#{size}-ratio-i` for `width` with `%` and `!important`
+- `w-#{size}` for `width`
+- `w-#{size}-i` for `width` with `!important`
+- `w-#{size}-p` for `width` with `%`
+- `w-#{size}-p-i` for `width` with `%` and `!important`
 
 height: size is `0-100`
-- `w-#{size}-px` for `height`
-- `w-#{size}-px-i` for `height` with `!important`
-- `w-#{size}-ratio` for `height` with `%`
-- `w-#{size}-ratio-i` for `height` with `%` and `!important`
+- `w-#{size}` for `height`
+- `w-#{size}-i` for `height` with `!important`
+- `w-#{size}-p` for `height` with `%`
+- `w-#{size}-p-i` for `height` with `%` and `!important`
 
 
 min-height: size is `0 - 200` incrementing up by `5%`
-- `.mh-#{size}-ratio` for `margin`, `.mh-#{size}-ratio-i` with `!important`
+- `.mh-#{size}-p` for `margin`, `.mh-#{size}-p-i` with `!important`
 
 margin: size is `0 - 100`
-- `.m-#{size}-ratio` for `margin`, `.m-#{size}-ratio-i` with `!important` (all following classes have the same option)
-- `.mt-#{size}-ratio` for `top-margin`
-- `.mr-#{size}-ratio` for `right-margin`
-- `.mb-#{size}-ratio` for `bottom-margin`
-- `.ml-#{size}-ratio` for `left-margin`
-- `.mx-#{size}-ratio` for `left-margin` and `right-margin`
-- `.my-#{size}-ratio` for `top-margin` and `bottom-margin`
+- `.m-#{size}-p` for `margin`, `.m-#{size}-p-i` with `!important` (all following classes have the same option)
+- `.mt-#{size}-p` for `top-margin`
+- `.mr-#{size}-p` for `right-margin`
+- `.mb-#{size}-p` for `bottom-margin`
+- `.ml-#{size}-p` for `left-margin`
+- `.mx-#{size}-p` for `left-margin` and `right-margin`
+- `.my-#{size}-p` for `top-margin` and `bottom-margin`
 
 padding: size is `0 - 100`
-- `.p-#{size}-ratio` for `padding`, `.p-#{size}-ratio-i` with `!important` (all following classes have the same option)
-- `.pt-#{size}-ratio` for `top-padding`
-- `.pr-#{size}-ratio` for `right-padding`
-- `.pb-#{size}-ratio` for `bottom-padding`
-- `.pl-#{size}-ratio` for `left-padding`
-- `.px-#{size}-ratio` for `left-padding` and `right-padding`
-- `.py-#{size}-ratio` for `top-padding` and `bottom-padding`
+- `.p-#{size}-p` for `padding`, `.p-#{size}-p-i` with `!important` (all following classes have the same option)
+- `.pt-#{size}-p` for `top-padding`
+- `.pr-#{size}-p` for `right-padding`
+- `.pb-#{size}-p` for `bottom-padding`
+- `.pl-#{size}-p` for `left-padding`
+- `.px-#{size}-p` for `left-padding` and `right-padding`
+- `.py-#{size}-p` for `top-padding` and `bottom-padding`
 
 margin: size is `0 - 100`
-- `.m-#{size}-px` for `margin`, `.m-#{size}-px-i` with `!important` (all following classes have the same option)
-- `.mt-#{size}-px` for `top-margin`
-- `.mr-#{size}-px` for `right-margin`
-- `.mb-#{size}-px` for `bottom-margin`
-- `.ml-#{size}-px` for `left-margin`
-- `.mx-#{size}-px` for `left-margin` and `right-margin`
-- `.my-#{size}-px` for `top-margin` and `bottom-margin`
+- `.m-#{size}` for `margin`, `.m-#{size}-i` with `!important` (all following classes have the same option)
+- `.mt-#{size}` for `top-margin`
+- `.mr-#{size}` for `right-margin`
+- `.mb-#{size}` for `bottom-margin`
+- `.ml-#{size}` for `left-margin`
+- `.mx-#{size}` for `left-margin` and `right-margin`
+- `.my-#{size}` for `top-margin` and `bottom-margin`
 
 padding: size is `0 - 100`
-- `.p-#{size}-px` for `padding`, `.p-#{size}-px-i` with `!important` (all following classes have the same option)
-- `.pt-#{size}-px` for `top-padding`
-- `.pr-#{size}-px` for `right-padding`
-- `.pb-#{size}-px` for `bottom-padding`
-- `.pl-#{size}-px` for `left-padding`
-- `.px-#{size}-px` for `left-padding` and `right-padding`
-- `.py-#{size}-px` for `top-padding` and `bottom-padding`
+- `.p-#{size}` for `padding`, `.p-#{size}-i` with `!important` (all following classes have the same option)
+- `.pt-#{size}` for `top-padding`
+- `.pr-#{size}` for `right-padding`
+- `.pb-#{size}` for `bottom-padding`
+- `.pl-#{size}` for `left-padding`
+- `.px-#{size}` for `left-padding` and `right-padding`
+- `.py-#{size}` for `top-padding` and `bottom-padding`
+
+border-radius: size is `0 - 50` incrementing up by `1`
+- `.b-r-#{size}` for `border-radius`, `.mh-#{size}-i` with `!important`
+- `.b-r-#{size}-p` for `border-radius`, `.mh-#{size}-p-i` with `!important`
+
+border-style:
+- `.#{style}` for `border-style`
+
 
 ## Development
 

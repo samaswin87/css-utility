@@ -1,24 +1,24 @@
 $max: 100 !default;
 @mixin width-height-classes($size) {
-    .w-#{$size}-px {
+    .w-#{$size} {
         width: $size + px;
         &-i {
             width: $size + px !important;
         }
     }
-    .h-#{$size}-px {
+    .h-#{$size} {
         height: $size + px;
         &-i {
             height: $size + px !important;
         }
     }
-    .w-#{$size}-ratio {
+    .w-#{$size}-p {
         width: $size#{'%'};
         &-i {
             width: $size#{'%'} !important;
         }
     }
-    .h-#{$size}-ratio {
+    .h-#{$size}-p {
         height: $size#{'%'};
         &-i {
             height: $size#{'%'} !important;

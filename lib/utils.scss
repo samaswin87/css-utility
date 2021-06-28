@@ -220,9 +220,9 @@ $margin-padding-max: 100 !default;
 }
 
 @mixin margin-padding-classes($size, $prefix: 'm', $property: 'margin', $sufix: px) {
-    $sufix-name: '-px';
+    $sufix-name: '';
     @if($sufix=='%') {
-        $sufix-name: '-ratio';
+        $sufix-name: '-p';
     }
     .#{$prefix}-#{$size}#{$sufix-name} {
         #{$property}: $size#{$sufix};
